@@ -54,7 +54,7 @@ module.exports = {
     assert.equal('they', en.pluralize('she'));
     assert.equal('they', en.pluralize('he'));
     assert.equal('ourselves', en.pluralize('myself'));
-    assert.equal('ourselves', en.pluralize('yourself'));
+    assert.equal('yourselves', en.pluralize('yourself'));
     assert.equal('themselves', en.pluralize('themself'));
     assert.equal('themselves', en.pluralize('herself'));
     assert.equal('themselves', en.pluralize('himself'));
